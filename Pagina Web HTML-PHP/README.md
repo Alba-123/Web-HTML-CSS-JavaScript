@@ -1,1 +1,1 @@
-﻿# Pagina-web-HTML-CSS-JavaScript
+﻿# Página web utilizando los lenguajes HTML , PHP , CSS , JavaScript y MySQL.
