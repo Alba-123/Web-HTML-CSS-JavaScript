@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro-HTML</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <script src="../JavaScript/motor.js"></script>
+</head>
+<body>
+    <ul id="lista">
+        <li><img id="imagen2" src="../Assets/perfil.jpeg"></li>
+        <li><a href="Inicio.html">Aprende HTML</a></li>
+        <li><a href="../Views/index.php">Aprende PHP</a></li>
+    </ul>
+    <h1 id="titulo-html">Desarrollo de una pagina web con HTML</h1>
+    <img id="imagen1" src="../Assets/house2.jpeg">
+    <div id="pag-principal">
+        
+        <h3>Que es HTML?</h3>
+        <p>HTML (por sus siglas en ingles, HyperText Markup Language), es un lenguaje de marcado que nos permite hacer la estructura de una pagina web. Tenemos que aclarar que HTML no es un lenguaje de programacion, pues carece de mecanismos para ejecutar calculos, repeticiones o condiciones, lo que si es, es un lenguaje de marcado. Es un lenguaje que le indicara al navegador web que tipo de elemento es el que esta en la estructura de una pagina web.</p>
+        <p><em><strong>Lo primero tenemos que crear la estructura del HTML que contiene :</strong></em> </p>
+        <ul>
+            <li >Una etiqueta HTML</li>
+            <li >Dentro de la etiqueta HTML la etiqueta HEAD</li>
+            <li >La etiqueta HEAD puede contener etiquetas como TITLE , LINK Y SCRIPT:</li>
+            <ul >
+                <li >SCRIPT: Llamamos al archivo externo de JavaScript, es decir, no estará incluido en el HTML.</li>
+                <li >LINK: Llamamos al archivo externo de CSS, es decir, no estará incluido en el HTML.</li>
+                <li>TITLE: Título de la página.</li>
+            </ul>
+            <li>La etiqueta BODY: Dentro de esta etiqueta se pueden crear diferentes etiquetas para agregar elementos a nuestra página web. Los más utilizados son: </li>
+            <ul>
+                <li>H1/2/3/4/5/6 para títulos</li>
+                <li>P para párrafos</li>
+                <li>Form para formularios</li>
+                <li>Button para botones</li>
+                <li>Label e Input para recoger datos</li>
+                <li>Img para imagenes</li>
+                <li>Ul y Li para crear una lista con viñetas</li>
+                <li>Ol y Li para crear una lista enumerada</li>
+                <li>Table - Tr - Th - Td para añadir una tabla</li>
+            </ul>
+            </ul>
+            <h2>Ejemplo</h2>
+            <img id="imagen1-html" src="../Assets/example.png">
+            <h2>Resultado</h2>
+            <img id="imagen2-html" src="../Assets/resultado-ejemplo.png">
+            <button id="boton-leer" onclick="insertar_datos_html()" type="button">Leer más</button>
+            <div id="insertar_mas_html">
+        </div>
+        <div id="footer">
+            <h2>Información sobre nosotros</h2>
+            <ul id="ul-footer">
+                <li>Sobre nosotros</li>
+                <li>Quienes somos</li>
+            </ul>
+            <h2 >Otros datos</h2>
+            <ul id="ul-footer">
+                <li>Nuestro blog</li>
+                <li>Otros servicios</li>
+            </ul>
+            <h2 >Conoce más</h2> 
+            <ul id="ul-footer">
+                <li>Administración</li>
+                <li>Sugerencias y reclamaciones</li>
+                <li>Terminos y condiciones</li>
+                <li>Política de privacidad</li>
+                <li>Política de cookies</li>
+                <li>Canal de denuncias</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
