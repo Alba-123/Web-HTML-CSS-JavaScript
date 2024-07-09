@@ -1,2 +1,5 @@
 # Página web
-Desarrollo de una pequeña página web con HTML, PHP, CSS, JavaScript y MySQL.
+
+Desarrollo de una página web:
+ * FronEnd con HTML, PHP, CSS, JavaScript.
+ * BackEnd con MySQL para insertar datos en una BBDD.
